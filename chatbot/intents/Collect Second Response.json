@@ -1,0 +1,44 @@
+{
+  "id": "903ce425-e7b0-4fd5-aa95-fcb6667e1436",
+  "name": "Collect Second Response",
+  "auto": true,
+  "contexts": [
+    "awaiting_second_response"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "awaiting_third_response",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7591b8ae-ff64-44d2-aaf8-decf1249e7fc",
+          "dataType": "@work",
+          "name": "work",
+          "value": "$work",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thanks for sharing again. Finally, how well did your colleagues support you today?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541806273,
+  "fallbackIntent": false,
+  "events": []
+}

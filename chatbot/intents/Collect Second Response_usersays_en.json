@@ -1,0 +1,46 @@
+[
+  {
+    "id": "79e4ac87-5443-4c67-9a66-515f182f28b5",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "dislike",
+        "alias": "work",
+        "meta": "@work",
+        "userDefined": false
+      },
+      {
+        "text": " it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541806273
+  },
+  {
+    "id": "3134bc3f-1c4b-480e-ab9c-ce2b1fd12607",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "like",
+        "alias": "work",
+        "meta": "@work",
+        "userDefined": false
+      },
+      {
+        "text": " it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541806273
+  }
+]

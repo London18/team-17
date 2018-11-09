@@ -1,0 +1,15 @@
+[
+  {
+    "value": "supported",
+    "synonyms": [
+      "supported",
+      "support"
+    ]
+  },
+  {
+    "value": "notsupported",
+    "synonyms": [
+      "notsupported"
+    ]
+  }
+]

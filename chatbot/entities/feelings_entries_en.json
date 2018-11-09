@@ -1,0 +1,28 @@
+[
+  {
+    "value": "happy",
+    "synonyms": [
+      "happy",
+      "joyful"
+    ]
+  },
+  {
+    "value": "sad",
+    "synonyms": [
+      "sad",
+      "down"
+    ]
+  },
+  {
+    "value": "frustrated",
+    "synonyms": [
+      "frustrated"
+    ]
+  },
+  {
+    "value": "angry",
+    "synonyms": [
+      "angry"
+    ]
+  }
+]

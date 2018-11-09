@@ -1,0 +1,70 @@
+[
+  {
+    "id": "19cd1f21-cc8c-4b89-ab55-0a20442fbe43",
+    "data": [
+      {
+        "text": "I\u0027m feeling ",
+        "userDefined": false
+      },
+      {
+        "text": "joyful",
+        "alias": "feelings",
+        "meta": "@feelings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541805656
+  },
+  {
+    "id": "de93fa7e-37dc-4766-b5cf-4ced0fcee81e",
+    "data": [
+      {
+        "text": "I feel ",
+        "userDefined": false
+      },
+      {
+        "text": "sad",
+        "alias": "feelings",
+        "meta": "@feelings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541805656
+  },
+  {
+    "id": "75f98f7d-7b79-429c-9d2d-d750e128bf61",
+    "data": [
+      {
+        "text": "I feel ",
+        "userDefined": false
+      },
+      {
+        "text": "happy",
+        "alias": "feelings",
+        "meta": "@feelings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541805656
+  },
+  {
+    "id": "662ddaa4-7222-4970-95b5-bff2c5c1a1c8",
+    "data": [
+      {
+        "text": "Happy",
+        "alias": "feelings",
+        "meta": "@feelings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541805656
+  }
+]

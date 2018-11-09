@@ -1,0 +1,14 @@
+[
+  {
+    "value": "like",
+    "synonyms": [
+      "like"
+    ]
+  },
+  {
+    "value": "dislike",
+    "synonyms": [
+      "dislike"
+    ]
+  }
+]

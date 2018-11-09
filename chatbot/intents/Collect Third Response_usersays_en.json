@@ -1,0 +1,74 @@
+[
+  {
+    "id": "b8b5e63e-985b-43ca-88ac-a6568bfb1cc0",
+    "data": [
+      {
+        "text": "I did not feel ",
+        "userDefined": false
+      },
+      {
+        "text": "supported",
+        "alias": "support",
+        "meta": "@support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541806784
+  },
+  {
+    "id": "c34fc511-c28c-44f2-943b-3b814085fced",
+    "data": [
+      {
+        "text": "I did not feel ",
+        "userDefined": false
+      },
+      {
+        "text": "support",
+        "alias": "support",
+        "meta": "@support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541806784
+  },
+  {
+    "id": "c3a75491-2cef-45a8-8d90-4840ca75915a",
+    "data": [
+      {
+        "text": "I felt ",
+        "userDefined": false
+      },
+      {
+        "text": "supported",
+        "alias": "support",
+        "meta": "@support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541806784
+  },
+  {
+    "id": "a20d605a-523f-4684-9cba-07999c31e8f6",
+    "data": [
+      {
+        "text": "I felt ",
+        "userDefined": false
+      },
+      {
+        "text": "support",
+        "alias": "support",
+        "meta": "@support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541806784
+  }
+]

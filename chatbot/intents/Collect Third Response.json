@@ -1,0 +1,38 @@
+{
+  "id": "1009c0a8-df3a-4093-a320-7042a9db7ea8",
+  "name": "Collect Third Response",
+  "auto": true,
+  "contexts": [
+    "awaiting_third_response"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "938d3e8f-1379-435d-bbe9-7f54428d7da1",
+          "dataType": "@support",
+          "name": "support",
+          "value": "$support",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you! You\u0027re time is helping us learn more about autism in the workplace. Scores have been added to your account. See you next week!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541806784,
+  "fallbackIntent": false,
+  "events": []
+}

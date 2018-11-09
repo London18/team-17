@@ -1,0 +1,45 @@
+{
+  "id": "a79c4d6c-bc58-4db8-ae5a-629f36661b1a",
+  "name": "Collect First Response",
+  "auto": true,
+  "contexts": [
+    "awaiting_first_response"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "awaiting_second_response",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9b72934d-6bfd-4dc3-9d32-1a7c708f2d84",
+          "required": false,
+          "dataType": "@feelings",
+          "name": "feelings",
+          "value": "$feelings",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you for letting me know how you feel! How do you feel about your work environment?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541805740,
+  "fallbackIntent": false,
+  "events": []
+}
