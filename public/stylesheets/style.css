@@ -47,6 +47,19 @@ body, html {
   /* padding: 1em; */
 }
 
+.stat1 {
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.statbtn {
+  margin-top: 1em;
+}
+
+.first {
+  margin-right: 3em;
+}
+
 .quiz-statement {
   margin-top: 1em;
 }
