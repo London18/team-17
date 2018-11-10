@@ -15,6 +15,10 @@ con.connect(function(err) {
     if (err) throw err;
 });
 
+con.on('error', function(err) {
+    console.log("[mysql error]",err);
+});
+
 const TEST_USER_ID = 1;
 const START_DATE = new Date("11/09/2018");
 const NUMBER_QUESTIONS = 21;
@@ -28,7 +32,7 @@ router.get('/xp', function(req, res, next) {
     con.query(query, function (err, result, fields) {
         if (err) throw err;
 
-        res.send(result[0].count);
+        res.end(result[0].count.toString());
     });
 });
 

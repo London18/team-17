@@ -40,7 +40,7 @@ router.get('/status', function(req, res, next) {
             daysUntilEnd = get_days_until_end();
         }
 
-        res.send([surveyComplete, daysUntilEnd]);
+        res.end([surveyComplete, daysUntilEnd].toString());
     });
 });
 
