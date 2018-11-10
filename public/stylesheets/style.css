@@ -1,8 +1,44 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body, html {
+  height: 100%;
 }
 
-a {
-  color: #00B7FF;
+.bg { 
+  background-image: url("../images/background.png");
+  min-height: 100%; 
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+#xp_bar-info {
+  margin-bottom: 1em;
+}
+
+#xp_bar-progbar {
+  margin-bottom: 1em;
+}
+
+#achieve_bar-info {
+  margin-bottom: 1em;
+}
+
+.d-flex {
+  padding: 2em;
+}
+
+.navbar{
+  padding-left: 0px;
+}
+
+.navbar-brand {
+  font-size: 4em;  
+}
+
+.quiz {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.quiz1 {
+
 }
