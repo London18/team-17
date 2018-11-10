@@ -151,6 +151,15 @@
                 var cssprop = { 'bgimg' : { 'backgroundimage': 'url("../images/red.png")'}}
                 localStorage.setItem("personalize", JSON.stringify(cssprop));                
             });
+            window.onload = function (e) {
+                console.log("window.onload");
+                if (localStorage.getItem("personalize") != null) {
+                    var personalize = localStorage.getItem("personalize");
+                    var cssprop = JSON.parse(personalize);
+                    console.log(cssprop)
+                    $('.bg').css('background-image', cssprop.bgimg.backgroundimage)
+                }
+            }
         </script>
 </body>
 

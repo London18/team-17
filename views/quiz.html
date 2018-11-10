@@ -505,7 +505,8 @@
                                 <div class="card-subtitle">How far do you agree?</div>
                             </div>
                             <div class="quiz-statement">
-                                <div>I was aware of the action of my heart in the absence of physical exertion (e.g. sense of heart rate increase, heart missing a beat)</div>
+                                <div>I was aware of the action of my heart in the absence of physical exertion (e.g. sense of
+                                    heart rate increase, heart missing a beat)</div>
                             </div>
                             <div class="quiz-answers justify-content-center">
                                 <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
@@ -549,45 +550,45 @@
             </div>
 
             <div class="d-flex justify-content-center question" id="q">
-                    <div class="col-sm-10">
-                        <div class="card ">
-                            <div class="card-body">
-                                <h4 class="card-title">Statement 21</h4>
-                                <div class="quiz-intro">
-                                    <div class="card-subtitle">How far do you agree?</div>
-                                </div>
-                                <div class="quiz-statement">
-                                    <div>I felt that life was meaningless</div>
-                                </div>
-                                <div class="quiz-answers justify-content-center">
-                                    <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
-                                    <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
-                                    <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
-                                    <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
-                                </div>
-                                <div class="quiz-controls" id="cont">
-                                    <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
-                                    <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
-                                </div>
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 21</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I felt that life was meaningless</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="d-flex justify-content-center question" id="q">
-                        <div class="col-sm-10">
-                            <div class="card ">
-                                <div class="card-body">
-                                    <h4 class="card-title">Done!</h4>
-                                    <div class="quiz-intro">
-                                        <div class="card-subtitle">Thanks for taking part.</div>
-                                    </div>
-                                    <a href="/" class="btn btn-outline-info endbtn ">Back to Dashboard</a>
-                                    
-                                </div>
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Done!</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">Thanks for taking part.</div>
                             </div>
+                            <a href="/" class="btn btn-outline-info endbtn ">Back to Dashboard</a>
+
                         </div>
                     </div>
+                </div>
+            </div>
 
 
 
@@ -637,7 +638,17 @@
             $('.question').removeClass('active');
             $current.prev().addClass('active');
         });
+        window.onload = function (e) {
+            console.log("window.onload");
+            if (localStorage.getItem("personalize") != null) {
+                var personalize = localStorage.getItem("personalize");
+                var cssprop = JSON.parse(personalize);
+                console.log(cssprop)
+                $('.bg').css('background-image', cssprop.bgimg.backgroundimage)
+            }
+        }
     </script>
+
 </body>
 
 </html>
