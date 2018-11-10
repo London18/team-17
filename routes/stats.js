@@ -23,12 +23,12 @@ const NUMBER_QUESTIONS = 21;
 /* GET home page. */
 router.get('/xp', function(req, res, next) {
 
-    query = "SELECT COUNT(*) AS count FROM Response WHERE 'user_id' = " + TEST_USER_ID + " AND 'week' = " + get_current_week() + ";";
+    query = "SELECT COUNT(*) * 10 AS count FROM Response WHERE user_id = " + TEST_USER_ID + ";";
 
     con.query(query, function (err, result, fields) {
         if (err) throw err;
 
-        
+        res.send(result[0].count);
     });
 });
 
