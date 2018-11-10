@@ -13,11 +13,12 @@ CREATE TABLE User(
 );
 
 CREATE TABLE Response(
-	user_id INTEGER;
-	question_id INTEGER;
-	response INTEGER;
-	week INTEGER;
+	user_id INTEGER,
+	question_id INTEGER,
+	response INTEGER,
+	week INTEGER,
 	PRIMARY KEY(user_id, question_id),
 	FOREIGN KEY(user_id) REFERENCES User(user_id),
 	FOREIGN KEY(question_id) REFERENCES Question(question_id)
 );
+
