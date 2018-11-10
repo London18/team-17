@@ -4,10 +4,10 @@ body, html {
 
 .bg { 
   background-image: url("../images/background.png");
-  height: 100%; 
+  min-height: 100%; 
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: repeat-y;
 }
 
 #xp_bar-info {
@@ -20,4 +20,16 @@ body, html {
 
 #achieve_bar-info {
   margin-bottom: 1em;
+}
+
+.d-flex {
+  padding: 2em;
+}
+
+.navbar{
+  padding-left: 0px;
+}
+
+.navbar-brand {
+  font-size: 4em;  
 }
