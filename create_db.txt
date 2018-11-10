@@ -1,0 +1,23 @@
+CREATE TABLE Question(
+	question_id INTEGER AUTO_INCREMENT,
+	frequency INTEGER NOT NULL,
+	timestamp DATETIME,
+	PRIMARY KEY(question_id),
+	CONSTRAINT check_frequency CHECK(frequency IN (1,4))
+);
+
+CREATE TABLE User(
+	user_id INTEGER AUTO_INCREMENT,
+	timestamp DATETIME,
+	PRIMARY KEY(user_id)
+);
+
+CREATE TABLE Response(
+	user_id INTEGER;
+	question_id INTEGER;
+	response INTEGER;
+	week INTEGER;
+	PRIMARY KEY(user_id, question_id),
+	FOREIGN KEY(user_id) REFERENCES User(user_id),
+	FOREIGN KEY(question_id) REFERENCES Question(question_id)
+);
