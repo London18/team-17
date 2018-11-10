@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/style.css" />
+
+    <title>Autistica</title>
+</head>
+
+<body>
+
+    <div class="bg">
+        <div class="d-flex justify-content-center">
+            <div class="col-sm-10">
+                <nav class="navbar navbar-fixed-top">
+                    <div class="navbar-header">
+                        <h2 class="navbar-brand" href="#">Quiz</h2>
+                </nav>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question active" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 1</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I found it hard to wind down </div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 2</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I was aware of dryness of my mouth</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 3</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I couldn’t seem to experience any positive feeling at all</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 4</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I experienced breathing difficulty (e.g. excessively rapid breathing, breathlessness in the
+                                    absence of physical exertion)</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 5</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I found it difficult to work up the initiative to do things</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 6</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I tended to over-react to situations</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 7</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I experienced trembling (e.g. in the hands)</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 8</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I felt that I was using a lot of nervous energy</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 9</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I was worried about situations in which I might panic and make a fool of myself</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 10</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I felt that I had nothing to look forward to</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 11</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I found myself getting agitated</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 12</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I found it difficult to relax</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 13</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I felt down-hearted and blue</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 14</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I was intolerant of anything that kept me from getting on with what I was doing</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 15</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I felt I was close to panic</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 16</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I was unable to become enthusiastic about anything</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 17</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I felt I wasn’t worth much as a person</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 18</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I felt that I was rather touchy</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 19</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I was aware of the action of my heart in the absence of physical exertion (e.g. sense of
+                                    heart rate increase, heart missing a beat)</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 20</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I felt scared without any good reason</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Statement 21</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">How far do you agree?</div>
+                            </div>
+                            <div class="quiz-statement">
+                                <div>I felt that life was meaningless</div>
+                            </div>
+                            <div class="quiz-answers justify-content-center">
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">0</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">1</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">2</a>
+                                <a href="#" class="btn btn-outline-info quiz-answer active" role="button" aria-pressed="true">3</a>
+                            </div>
+                            <div class="quiz-controls" id="cont">
+                                <button type="button" id="back" class="back btn btn-outline-info quiz-back">Back</button>
+                                <button type="button" id="next" class="next btn btn-outline-info quiz-next">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center question" id="q">
+                <div class="col-sm-10">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h4 class="card-title">Done!</h4>
+                            <div class="quiz-intro">
+                                <div class="card-subtitle">Thanks for taking part.</div>
+                            </div>
+                            <a href="/" class="btn btn-outline-info endbtn ">Back to Dashboard</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).on("click", "#next", function () {
+            var $current = $('.question.active');
+            // use $current here to test if the question was answered if needed 
+            // maybe something like if($current.find('.answer').val().trim() == ''){ return;}
+            $('.question').removeClass('active');
+            $current.next().addClass('active');
+        });
+        $(document).on("click", "#back", function () {
+            var $current = $('.question.active');
+            // use $current here to test if the question was answered if needed 
+            // maybe something like if($current.find('.answer').val().trim() == ''){ return;}
+            $('.question').removeClass('active');
+            $current.prev().addClass('active');
+        });
+        window.onload = function (e) {
+            console.log("window.onload");
+            if (localStorage.getItem("personalize") != null) {
+                var personalize = localStorage.getItem("personalize");
+                var cssprop = JSON.parse(personalize);
+                console.log(cssprop)
+                $('.bg').css('background-image', cssprop.bgimg.backgroundimage)
+            }
+        }
+    </script>
+
+</body>
+
+</html>
