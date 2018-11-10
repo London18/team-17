@@ -33,3 +33,24 @@ body, html {
 .navbar-brand {
   font-size: 4em;  
 }
+
+#floating-button {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  background: transparent;
+  position: fixed;
+  bottom: 85px;
+  right: 85px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgb(223, 212, 212);
+}
+
+#container-floating {
+  position: fixed;
+  width: 70px;
+  height: 115px;
+  bottom: 400px;
+  right: 280px;
+  z-index: 50px;
+}
