@@ -91,3 +91,20 @@ body, html {
 .dashboardbtn{
   float: right;
 }
+
+#floating-button {
+  width: 0px;
+  height: 0px;
+  position: fixed;
+  bottom: 85px;
+  right: 85px;
+  cursor: pointer;
+}
+
+#container-floating {
+  position: fixed;
+  width: 30px;
+  height: 115px;
+  bottom: 420px;
+  right: 280px;
+}
