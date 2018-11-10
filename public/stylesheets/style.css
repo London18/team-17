@@ -86,4 +86,8 @@ body, html {
 .setbtn {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-} 
+}
+
+.dashboardbtn{
+  float: right;
+}
