@@ -9,3 +9,15 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#xp_bar-info {
+  margin-bottom: 1em;
+}
+
+#xp_bar-progbar {
+  margin-bottom: 1em;
+}
+
+#achieve_bar-info {
+  margin-bottom: 1em;
+}
