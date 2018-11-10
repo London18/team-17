@@ -1,37 +1,30 @@
 {
-  "id": "903ce425-e7b0-4fd5-aa95-fcb6667e1436",
-  "name": "Collect Second Response",
+  "id": "5dded755-c48a-4bdd-9a5a-f8826b21b668",
+  "name": "Misunderstanding Response",
   "auto": true,
   "contexts": [
-    "awaiting_second_response"
+    "awaiting_misunderstanding_response"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "awaiting_third_response",
+          "name": "awaiting_media_reply",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "3874390b-e6fb-4ab6-9a97-5bb0d83a3742",
+          "id": "76d6ce33-d621-4853-94f2-05b5af673931",
           "dataType": "@misunderstanding",
           "name": "misunderstanding",
           "value": "$misunderstanding",
           "isList": false
         },
         {
-          "id": "2216cf9c-7aef-4417-ac2e-86430a509f17",
-          "dataType": "@sys.date-period",
-          "name": "date-period",
-          "value": "$date-period",
-          "isList": false
-        },
-        {
-          "id": "fe3b8b3c-35c4-4311-b5d7-7f44ff11a6a4",
+          "id": "9933c028-c0a9-40bb-aa3d-15aa421a4728",
           "dataType": "@sys.given-name",
           "name": "given-name",
           "value": "$given-name",
@@ -52,7 +45,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1541808203,
+  "lastUpdate": 1541818227,
   "fallbackIntent": false,
   "events": []
 }

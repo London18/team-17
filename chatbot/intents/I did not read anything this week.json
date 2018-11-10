@@ -1,9 +1,9 @@
 {
-  "id": "1009c0a8-df3a-4093-a320-7042a9db7ea8",
-  "name": "Collect Third Response",
+  "id": "3d648697-7458-4dfc-8e91-71ed090c988b",
+  "name": "I did not read anything this week",
   "auto": true,
   "contexts": [
-    "awaiting_third_response"
+    "awaiting_media_reply"
   ],
   "responses": [
     {
@@ -11,10 +11,19 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "caf05bc0-a666-41f1-a79c-6dc533781c00",
-          "dataType": "@media",
-          "name": "media",
-          "value": "$media",
+          "id": "0f573f85-6d3e-4865-96ec-be80b113b0e9",
+          "required": false,
+          "dataType": "@read",
+          "name": "read",
+          "value": "$read",
+          "isList": false
+        },
+        {
+          "id": "6b4c1511-7f78-4450-9519-4b96a778fa90",
+          "required": false,
+          "dataType": "@sys.date-period",
+          "name": "date-period",
+          "value": "$date-period",
           "isList": false
         }
       ],
@@ -32,7 +41,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1541808358,
+  "lastUpdate": 1541818493,
   "fallbackIntent": false,
   "events": []
 }

@@ -2,9 +2,7 @@
   {
     "value": "success",
     "synonyms": [
-      "success",
-      "succeeded",
-      "successful"
+      "success"
     ]
   },
   {
@@ -14,9 +12,9 @@
     ]
   },
   {
-    "value": "succeed",
+    "value": "successful",
     "synonyms": [
-      "succeed"
+      "successful"
     ]
   }
 ]

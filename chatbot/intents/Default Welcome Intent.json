@@ -1,5 +1,5 @@
 {
-  "id": "7915488a-7669-4856-90cf-ace15d4c54fe",
+  "id": "c3d4c4e4-e208-47fb-953f-eb487b723097",
   "name": "Default Welcome Intent",
   "auto": true,
   "contexts": [],
@@ -7,19 +7,13 @@
     {
       "resetContexts": false,
       "action": "input.welcome",
-      "affectedContexts": [
-        {
-          "name": "awaiting_first_response",
-          "parameters": {},
-          "lifespan": 5
-        }
-      ],
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "en",
-          "speech": "Hello! This is a chance for you to log how this week has been going for you. What have your successes been this week?"
+          "speech": "Welcome. How can I help you?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -29,7 +23,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1541807859,
+  "lastUpdate": 1541502194,
   "fallbackIntent": false,
   "events": [
     {

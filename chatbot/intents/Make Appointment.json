@@ -1,0 +1,80 @@
+{
+  "id": "bc82a8c7-2741-4716-8943-67df3fea5d96",
+  "name": "Make Appointment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "27dd2ef8-27e3-4d83-88b5-b1f15a5e69f4",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Ok, what day is it?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "f24ad912-5115-49c8-b31e-a0054b2bbf0c",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time is it?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "8acc9e46-8c1a-4fd6-a535-2ffe6b6ad86a",
+          "required": false,
+          "dataType": "@studentemail",
+          "name": "studentemail",
+          "value": "$studentemail",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can I have your TCD email?"
+            },
+            {
+              "lang": "en",
+              "value": "I need your Trinity email."
+            },
+            {
+              "lang": "en",
+              "value": "Can you please give me your TCD email?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sure thing, I just need your email first (I can only accept @tcd.ie emails)."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541817465,
+  "fallbackIntent": false,
+  "events": []
+}

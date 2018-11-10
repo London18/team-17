@@ -1,0 +1,80 @@
+[
+  {
+    "id": "6ece5d07-1c36-44dc-b12b-b004e95e6930",
+    "data": [
+      {
+        "text": "One",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "success",
+        "alias": "success",
+        "meta": "@success",
+        "userDefined": false
+      },
+      {
+        "text": " I had was when",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541818040
+  },
+  {
+    "id": "c7803128-c1d4-4317-9c51-b722b7dc6be0",
+    "data": [
+      {
+        "text": "I had no ",
+        "userDefined": false
+      },
+      {
+        "text": "successes",
+        "alias": "success",
+        "meta": "@success",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "this week",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541818040
+  },
+  {
+    "id": "1aa27cbf-9b47-4e0c-a38c-fbd15a456adf",
+    "data": [
+      {
+        "text": "I had a ",
+        "userDefined": false
+      },
+      {
+        "text": "success",
+        "alias": "success",
+        "meta": "@success",
+        "userDefined": false
+      },
+      {
+        "text": " this week when I",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541818040
+  }
+]

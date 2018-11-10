@@ -1,41 +1,38 @@
 {
-  "id": "a79c4d6c-bc58-4db8-ae5a-629f36661b1a",
-  "name": "Collect First Response",
+  "id": "16a4a9d4-dbfe-40a1-bbe9-b8ddb5a0f507",
+  "name": "first response",
   "auto": true,
-  "contexts": [
-    "awaiting_first_response"
-  ],
+  "contexts": [],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "awaiting_second_response",
+          "name": "awaiting_misunderstanding_response",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "9b72934d-6bfd-4dc3-9d32-1a7c708f2d84",
-          "required": false,
-          "dataType": "@feelings",
-          "name": "feelings",
-          "value": "$feelings",
-          "isList": false
-        },
-        {
-          "id": "8fd49e77-51ca-4754-a23b-3fdb0f5a9d4e",
+          "id": "c4d03901-386d-4725-be48-0fea47af09a2",
           "dataType": "@success",
           "name": "success",
           "value": "$success",
           "isList": false
         },
         {
-          "id": "dddc1fd6-8bc0-4183-8af3-c9d0e116fad0",
+          "id": "d2e14444-662d-4a05-9371-40ddb0ff91d4",
           "dataType": "@sys.date-period",
           "name": "date-period",
           "value": "$date-period",
+          "isList": false
+        },
+        {
+          "id": "04bc074f-d9b1-4370-a23a-59a1eaafd13a",
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
           "isList": false
         }
       ],
@@ -53,7 +50,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1541807978,
+  "lastUpdate": 1541818040,
   "fallbackIntent": false,
   "events": []
 }

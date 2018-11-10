@@ -2,9 +2,13 @@
   {
     "value": "misunderstanding",
     "synonyms": [
-      "misunderstanding",
-      "misunderstandings",
-      "misunderstood"
+      "misunderstanding"
+    ]
+  },
+  {
+    "value": "misunderstandings",
+    "synonyms": [
+      "misunderstandings"
     ]
   }
 ]

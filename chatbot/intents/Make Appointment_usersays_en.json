@@ -1,0 +1,418 @@
+[
+  {
+    "id": "e31351eb-1641-42f6-8e49-01be38dd6ac9",
+    "data": [
+      {
+        "text": "Today",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "Monday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 4pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541817465
+  },
+  {
+    "id": "f8b93477-ed93-4a08-b24d-0f68a5ded21d",
+    "data": [
+      {
+        "text": "It\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "3am",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541817465
+  },
+  {
+    "id": "163e00ac-e4d5-4c1a-a77e-2b9e1bc2b8cb",
+    "data": [
+      {
+        "text": "It is ",
+        "userDefined": false
+      },
+      {
+        "text": "6pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541817465
+  },
+  {
+    "id": "2e286fa0-776d-42bf-8153-26227862f3d3",
+    "data": [
+      {
+        "text": "It is ",
+        "userDefined": false
+      },
+      {
+        "text": "Tuesday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541817465
+  },
+  {
+    "id": "ba58636f-dbaf-4d2e-8788-79eca3f6304d",
+    "data": [
+      {
+        "text": "It is ",
+        "userDefined": false
+      },
+      {
+        "text": "Monday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 8pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541817465
+  },
+  {
+    "id": "5b9b7220-035c-4185-a00f-ba33b3c66069",
+    "data": [
+      {
+        "text": "Can I book a room ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "6pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      },
+      {
+        "text": "? My email is ",
+        "userDefined": false
+      },
+      {
+        "text": "student@tcd.ie",
+        "alias": "studentemail",
+        "meta": "@studentemail",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541703609
+  },
+  {
+    "id": "9246134a-8e43-47ad-a823-c88194ba55fc",
+    "data": [
+      {
+        "text": "My email is ",
+        "userDefined": false
+      },
+      {
+        "text": "name@tcd.ie",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541703098
+  },
+  {
+    "id": "c9439426-1c26-4624-a778-62cc8abd0ac5",
+    "data": [
+      {
+        "text": "Can I book a room for ",
+        "userDefined": false
+      },
+      {
+        "text": "5pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "? My email is ",
+        "userDefined": false
+      },
+      {
+        "text": "abcd1@tcd.ie",
+        "alias": "studentemail",
+        "meta": "@studentemail",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541703609
+  },
+  {
+    "id": "60e5c715-4d1a-4d1b-a395-d655b9450324",
+    "data": [
+      {
+        "text": "Can I have a room ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541684174
+  },
+  {
+    "id": "314df884-2f2b-4e90-953d-726e36961931",
+    "data": [
+      {
+        "text": "Are there rooms available ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541684174
+  },
+  {
+    "id": "0d2d9e9e-9294-40ac-b58a-1dea7a61bac6",
+    "data": [
+      {
+        "text": "I\u0027d like a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541684174
+  },
+  {
+    "id": "bdeee929-02b4-43df-a4d0-d9f821e86ebd",
+    "data": [
+      {
+        "text": "I need a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541684174
+  },
+  {
+    "id": "293b3ef7-ecf5-45b4-be17-c98c21930738",
+    "data": [
+      {
+        "text": "Can I make a booking ",
+        "userDefined": false
+      },
+      {
+        "text": "at 6pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541502613
+  },
+  {
+    "id": "05d0b712-8f55-48c2-bf82-f04c49e90c9d",
+    "data": [
+      {
+        "text": "Can I book?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541502613
+  },
+  {
+    "id": "cdf77f9c-594c-41ec-918f-978903dd968d",
+    "data": [
+      {
+        "text": "Can I book a room for ",
+        "userDefined": false
+      },
+      {
+        "text": "4 PM",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541502613
+  },
+  {
+    "id": "9bfcee25-4343-4638-8bf9-d8748013e16a",
+    "data": [
+      {
+        "text": "Can I set up an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "noon",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on Friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541194542
+  },
+  {
+    "id": "86ef0688-4b0a-4514-a0f9-8699d057c9d8",
+    "data": [
+      {
+        "text": "I need to make an appointment at ",
+        "userDefined": false
+      },
+      {
+        "text": "3 PM",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541502613
+  }
+]

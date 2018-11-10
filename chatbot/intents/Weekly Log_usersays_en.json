@@ -1,0 +1,50 @@
+[
+  {
+    "id": "37d8f1d0-a258-4765-95bd-a61d1ee1d894",
+    "data": [
+      {
+        "text": "weekly log",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541817235
+  },
+  {
+    "id": "a424c6e2-728f-4c1f-a073-04c24cd9a5bd",
+    "data": [
+      {
+        "text": "Time for ",
+        "userDefined": false
+      },
+      {
+        "text": "weekly log",
+        "alias": "weeklylog",
+        "meta": "@weeklylog",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541817235
+  },
+  {
+    "id": "ac2ea316-df07-4389-83b0-c9971ba0f1e9",
+    "data": [
+      {
+        "text": "I would like to make ",
+        "userDefined": false
+      },
+      {
+        "text": "my weekly log",
+        "alias": "weeklylog",
+        "meta": "@weeklylog",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541817235
+  }
+]
