@@ -1,0 +1,36 @@
+{
+  "id": "2b5405c7-d2b1-4098-8b9d-181f26a7bcdd",
+  "name": "Weekly Log",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bf56b37c-bbfd-4b56-8241-6751d09d313b",
+          "dataType": "@weeklylog",
+          "name": "weeklylog",
+          "value": "$weeklylog",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What time and day is it?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541817235,
+  "fallbackIntent": false,
+  "events": []
+}

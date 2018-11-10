@@ -1,0 +1,74 @@
+[
+  {
+    "id": "5c7ee849-9151-47e4-b32d-5477c6bca057",
+    "data": [
+      {
+        "text": "I did not ",
+        "userDefined": false
+      },
+      {
+        "text": "read",
+        "alias": "read",
+        "meta": "@read",
+        "userDefined": false
+      },
+      {
+        "text": " anything ",
+        "userDefined": false
+      },
+      {
+        "text": "this week",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541818483
+  },
+  {
+    "id": "aa7d954c-7e0d-4c77-9b3d-0e4dae7a54f6",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "heard",
+        "alias": "read",
+        "meta": "@read",
+        "userDefined": false
+      },
+      {
+        "text": " about autism diagnosis rates",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541818483
+  },
+  {
+    "id": "7b95a77b-693e-4868-b42a-04bf04f108dc",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "read",
+        "alias": "read",
+        "meta": "@read",
+        "userDefined": false
+      },
+      {
+        "text": " that autism was getting more attention",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541818483
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "16a4a9d4-dbfe-40a1-bbe9-b8ddb5a0f507",
+  "name": "first response",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "awaiting_misunderstanding_response",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c4d03901-386d-4725-be48-0fea47af09a2",
+          "dataType": "@success",
+          "name": "success",
+          "value": "$success",
+          "isList": false
+        },
+        {
+          "id": "d2e14444-662d-4a05-9371-40ddb0ff91d4",
+          "dataType": "@sys.date-period",
+          "name": "date-period",
+          "value": "$date-period",
+          "isList": false
+        },
+        {
+          "id": "04bc074f-d9b1-4370-a23a-59a1eaafd13a",
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you for letting me know about your successes! Did you have any misunderstandings this week? If so, what happened?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541818040,
+  "fallbackIntent": false,
+  "events": []
+}

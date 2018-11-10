@@ -1,0 +1,51 @@
+{
+  "id": "5dded755-c48a-4bdd-9a5a-f8826b21b668",
+  "name": "Misunderstanding Response",
+  "auto": true,
+  "contexts": [
+    "awaiting_misunderstanding_response"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "awaiting_media_reply",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "76d6ce33-d621-4853-94f2-05b5af673931",
+          "dataType": "@misunderstanding",
+          "name": "misunderstanding",
+          "value": "$misunderstanding",
+          "isList": false
+        },
+        {
+          "id": "9933c028-c0a9-40bb-aa3d-15aa421a4728",
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thanks for sharing again. Finally, what have you read about autism in the media this week?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541818227,
+  "fallbackIntent": false,
+  "events": []
+}

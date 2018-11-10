@@ -1,0 +1,57 @@
+[
+  {
+    "value": "abc@tcddomain:tcddomain ",
+    "synonyms": [
+      "abc@tcddomain:tcddomain "
+    ]
+  },
+  {
+    "value": "123@tcddomain:tcddomain",
+    "synonyms": [
+      "123@tcd.ie",
+      "123 at tcd dot ie"
+    ]
+  },
+  {
+    "value": "abcdef1@tcddomain:tcddomain",
+    "synonyms": [
+      "abcdef1@tcd.ie",
+      "abcdef1 at tcd dot ie"
+    ]
+  },
+  {
+    "value": "mcdonnjo@tcddomain:tcddomain",
+    "synonyms": [
+      "mcdonnjo@tcd.ie",
+      "mcdonnjo at tcd dot ie"
+    ]
+  },
+  {
+    "value": "mcaleesi@tcddomain:tcddomain",
+    "synonyms": [
+      "mcaleesi@tcd.ie",
+      "mcaleesi at tcd dot ie"
+    ]
+  },
+  {
+    "value": "cmcentee@tcddomain:tcddomain",
+    "synonyms": [
+      "cmcentee@tcd.ie",
+      "cmcentee at tcd dot ie"
+    ]
+  },
+  {
+    "value": "akettle@tcddomain:tcddomain",
+    "synonyms": [
+      "akettle@tcd.ie",
+      "akettle at tcd dot ie"
+    ]
+  },
+  {
+    "value": "lobodepm@tcddomain:tcddomain",
+    "synonyms": [
+      "lobodepm@tcd.ie",
+      "lobodepm at tcd dot ie"
+    ]
+  }
+]
