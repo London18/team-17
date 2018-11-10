@@ -1,74 +1,112 @@
 [
   {
-    "id": "b8b5e63e-985b-43ca-88ac-a6568bfb1cc0",
+    "id": "e2d7285e-5665-4f7c-b2b3-6276363e95e3",
     "data": [
       {
-        "text": "I did not feel ",
+        "text": "I did not ",
         "userDefined": false
       },
       {
-        "text": "supported",
-        "alias": "support",
-        "meta": "@support",
+        "text": "see",
+        "alias": "media",
+        "meta": "@media",
+        "userDefined": false
+      },
+      {
+        "text": " anything",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1541806784
+    "updated": 1541808358
   },
   {
-    "id": "c34fc511-c28c-44f2-943b-3b814085fced",
+    "id": "5caea6c9-55ce-4546-b1c5-5d777eaa00fe",
     "data": [
       {
-        "text": "I did not feel ",
+        "text": "I did not ",
         "userDefined": false
       },
       {
-        "text": "support",
-        "alias": "support",
-        "meta": "@support",
+        "text": "read",
+        "alias": "media",
+        "meta": "@media",
+        "userDefined": false
+      },
+      {
+        "text": " about anything",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1541806784
+    "updated": 1541808358
   },
   {
-    "id": "c3a75491-2cef-45a8-8d90-4840ca75915a",
+    "id": "acaafeff-b555-4f56-82ab-a934141eff73",
     "data": [
       {
-        "text": "I felt ",
+        "text": "I ",
         "userDefined": false
       },
       {
-        "text": "supported",
-        "alias": "support",
-        "meta": "@support",
+        "text": "read",
+        "alias": "media",
+        "meta": "@media",
+        "userDefined": false
+      },
+      {
+        "text": " about autism in the newspaper",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1541806784
+    "updated": 1541808358
   },
   {
-    "id": "a20d605a-523f-4684-9cba-07999c31e8f6",
+    "id": "85735915-0ab7-4c18-8d92-1f928926c44a",
     "data": [
       {
-        "text": "I felt ",
+        "text": "I ",
         "userDefined": false
       },
       {
-        "text": "support",
-        "alias": "support",
-        "meta": "@support",
+        "text": "heard",
+        "alias": "media",
+        "meta": "@media",
+        "userDefined": false
+      },
+      {
+        "text": " that autism was becoming more diagnosed",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1541806784
+    "updated": 1541808358
+  },
+  {
+    "id": "215e5122-e209-49e2-b997-4072e4ec5685",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "read",
+        "alias": "media",
+        "meta": "@media",
+        "userDefined": false
+      },
+      {
+        "text": " a lot of things",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541808358
   }
 ]

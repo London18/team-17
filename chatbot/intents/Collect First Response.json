@@ -23,13 +23,27 @@
           "name": "feelings",
           "value": "$feelings",
           "isList": false
+        },
+        {
+          "id": "8fd49e77-51ca-4754-a23b-3fdb0f5a9d4e",
+          "dataType": "@success",
+          "name": "success",
+          "value": "$success",
+          "isList": false
+        },
+        {
+          "id": "dddc1fd6-8bc0-4183-8af3-c9d0e116fad0",
+          "dataType": "@sys.date-period",
+          "name": "date-period",
+          "value": "$date-period",
+          "isList": false
         }
       ],
       "messages": [
         {
           "type": 0,
           "lang": "en",
-          "speech": "Thank you for letting me know how you feel! How do you feel about your work environment?"
+          "speech": "Thank you for letting me know about your successes! Did you have any misunderstandings this week? If so, what happened?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -39,7 +53,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1541805740,
+  "lastUpdate": 1541807978,
   "fallbackIntent": false,
   "events": []
 }

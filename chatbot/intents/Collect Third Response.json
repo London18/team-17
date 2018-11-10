@@ -11,10 +11,10 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "938d3e8f-1379-435d-bbe9-7f54428d7da1",
-          "dataType": "@support",
-          "name": "support",
-          "value": "$support",
+          "id": "caf05bc0-a666-41f1-a79c-6dc533781c00",
+          "dataType": "@media",
+          "name": "media",
+          "value": "$media",
           "isList": false
         }
       ],
@@ -22,7 +22,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Thank you! You\u0027re time is helping us learn more about autism in the workplace. Scores have been added to your account. See you next week!"
+          "speech": "Thank you! Your time is helping us learn more about autism in the workplace. Scores have been added to your account - keep growing your score. See you next week!"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -32,7 +32,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1541806784,
+  "lastUpdate": 1541808358,
   "fallbackIntent": false,
   "events": []
 }

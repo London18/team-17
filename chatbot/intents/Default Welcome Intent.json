@@ -19,7 +19,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Hi! How are you feeling today?"
+          "speech": "Hello! This is a chance for you to log how this week has been going for you. What have your successes been this week?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -29,7 +29,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1541805515,
+  "lastUpdate": 1541807859,
   "fallbackIntent": false,
   "events": [
     {
