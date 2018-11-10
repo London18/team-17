@@ -6,3 +6,88 @@ body {
 a {
   color: #00B7FF;
 }
+<<<<<<< HEAD
+=======
+
+#xp_bar-info {
+  margin-bottom: 1em;
+}
+
+#xp_bar-progbar {
+  margin-bottom: 1em;
+}
+
+#achieve_bar-info {
+  margin-bottom: 1em;
+}
+
+.d-flex {
+  padding: 2em;
+}
+
+.navbar{
+  padding-left: 0px;
+}
+
+.navbar-brand {
+  font-size: 4em;  
+}
+
+.quiz {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.quiz-answer {
+  display: block;
+  margin: 2em;
+  margin-right: 5em;
+  margin-left: 5em;
+  /* padding: 1em; */
+}
+
+.quiz-statement {
+  margin-top: 1em;
+}
+
+.quiz-next {
+  float: right;
+}
+
+.question:not(.active){
+  display:none !important;
+}
+
+.endbtn {
+  margin-top: 2em;
+}
+
+#trophy {
+  margin-bottom: 1em;
+}
+
+#trophy-logo {
+  vertical-align: middle;
+}
+#medal-logo {
+  vertical-align: middle;
+  margin-left: 0.1em;
+}
+#excla-logo {
+  vertical-align: middle;
+  margin-left: 0.40em;
+}
+
+#trophy-text {
+  margin-left: 1em;
+}
+
+.setbtn {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.dashboardbtn{
+  float: right;
+}
+>>>>>>> master

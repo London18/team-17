@@ -19,7 +19,6 @@ const TEST_USER_ID = 1;
 const START_DATE = new Date("11/09/2018");
 const NUMBER_QUESTIONS = 21;
 
-
 /* GET home page. */
 router.get('/status', function(req, res, next) {
 
