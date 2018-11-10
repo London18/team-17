@@ -130,18 +130,26 @@
             $(document).on("click", "#blue", function () {
                 var $current = $('.bg');
                 $current.css("background-image", 'url("../images/blue.png")')
+                var cssprop = { 'bgimg' : { 'background-image': 'url("../images/blue.png")'}}
+                localStorage.setItem("personalize", JSON.stringify(cssprop));
             });
             $(document).on("click", "#green", function () {
                 var $current = $('.bg');
                 $current.css("background-image", 'url("../images/green.png")')
+                var cssprop = { 'bgimg' : { 'background-image': 'url("../images/green.png")'}}
+                localStorage.setItem("personalize", JSON.stringify(cssprop));                
             });
             $(document).on("click", "#grey", function () {
                 var $current = $('.bg');
                 $current.css("background-image", 'url("../images/grey.png")')
+                var cssprop = { 'bgimg' : { 'background-image': 'url("../images/grey.png")'}}
+                localStorage.setItem("personalize", JSON.stringify(cssprop));                
             });
             $(document).on("click", "#red", function () {
                 var $current = $('.bg');
                 $current.css("background-image", 'url("../images/red.png")')
+                var cssprop = { 'bgimg' : { 'backgroundimage': 'url("../images/red.png")'}}
+                localStorage.setItem("personalize", JSON.stringify(cssprop));                
             });
         </script>
 </body>
