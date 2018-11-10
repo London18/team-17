@@ -14,6 +14,10 @@ router.get('/settings', function(req, res, next) {
   res.render('settings', { title: 'Express' });
 });
 
+router.get('/stats', function(req, res, next) {
+  res.render('stats', { title: 'Express' });
+});
+
 exports.index = function(req, res){
   res.render('index', { title: 'ejs' });};
 
