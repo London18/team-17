@@ -1,4 +1,5 @@
 var express = require('express');
+<<<<<<< HEAD
 var mysql = require('mysql');
 var router = express.Router();
 var mysql = require('mysql');
@@ -72,3 +73,18 @@ function get_current_week () {
 
 
 module.exports = router;
+=======
+var router = express.Router();
+
+
+router.get('/quiz', function(req, res, next) {
+  res.render('quiz', { title: 'Express' });
+});
+
+
+exports.quiz = function(req, res){
+  res.render('quiz', { title: 'ejs' });};
+  
+    
+module.exports = router;
+>>>>>>> master
